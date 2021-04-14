@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(192, 255, 226), rgb(238, 213, 130));
 }
 
 button {
@@ -34,4 +34,35 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+h2 {
+  margin-bottom: 0%;
+}
+
+p {
+  font-size: 13px;
+}
+
+#create-task-form {
+  margin-bottom: .5%;
+}
+
+#priority-form {
+  display: inline-block;
+  text-align: left;
+  align-content: center;
+  margin-bottom: .5%;
+}
+
+.high {
+  color: red;
+}
+
+.med {
+  color: rgb(8, 8, 8);
+}
+
+.low {
+  color: green;
 }
